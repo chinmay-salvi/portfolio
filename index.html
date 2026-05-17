@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chinmay Salvi | AI/ML Software Engineer</title>
+    
+    <!-- Modern Typography: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #f8fafc; /* light slate */
+            color: #0f172a;
+        }
+        
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        .hover-card {
+            transition: all 0.3s ease;
+        }
+        .hover-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+        }
+    </style>
+</head>
+
+<body class="antialiased selection:bg-brand-100 selection:text-brand-900 font-sans">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 w-full flex justify-center glass-nav">
+        <div class="w-full max-w-5xl px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+            <a href="#home" class="text-xl font-bold tracking-tight text-slate-900 flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center text-sm">CS</span>
+                Chinmay Salvi
+            </a>
+            <div class="flex items-center gap-6 text-sm font-medium text-slate-600">
+                <a href="#experience" class="hover:text-brand-600 transition-colors">Experience</a>
+                <a href="#education" class="hover:text-brand-600 transition-colors">Education</a>
+                <a href="#projects" class="hover:text-brand-600 transition-colors">Projects</a>
+                <a href="#skills" class="hover:text-brand-600 transition-colors">Skills</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="w-full max-w-5xl mx-auto px-6 py-12 md:py-20 flex flex-col gap-24">
+
+        <section id="home" class="flex flex-col md:flex-row items-center gap-12 pt-8">
+            <div class="flex-1 flex flex-col gap-6">
+                <div class="inline-block px-4 py-1.5 rounded-full bg-brand-50 text-brand-600 text-sm font-semibold border border-brand-100 w-max">
+                    🚀 Available for Opportunities
+                </div>
+                
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 leading-tight tracking-tight">
+                        Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-indigo-600">Chinmay</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl font-bold text-slate-700">
+                        AI/ML Software Engineer
+                    </h2>
+                </div>
+
+                <p class="text-lg text-slate-600 leading-relaxed max-w-xl mt-2">
+                    I build scalable machine learning backends, generate text-to-SQL logic with LLMs, and deploy robust data pipelines. Currently pursuing my MSCS at USC.
+                </p>
+                
+                <div class="flex flex-wrap gap-4 mt-2">
+                    <a href="mailto:chinmaysalvi207@gmail.com" class="px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:bg-slate-800 transition-colors flex items-center gap-2 shadow-lg shadow-slate-900/20">
+                        <span class="material-symbols-outlined text-sm">mail</span> Email
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/chinmaysalvi/" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl bg-white text-slate-700 font-medium border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-colors flex items-center gap-2">
+                        <svg class="w-4 h-4 fill-current text-slate-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+
+                    <a href="#" class="px-6 py-3 rounded-xl bg-white text-slate-700 font-medium border border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-colors flex items-center gap-2">
+                        <span class="material-symbols-outlined text-sm">description</span> Resume
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hidden md:block relative w-[320px] h-[280px] group">
+                <div class="absolute inset-0 bg-brand-200 rounded-2xl rotate-6 blur-lg opacity-60 transition-transform duration-500 group-hover:rotate-12"></div>
+                
+                <div class="absolute inset-0 bg-white/80 backdrop-blur-xl border border-white shadow-xl rounded-2xl overflow-hidden flex flex-col transform -rotate-2 transition-all duration-300 group-hover:rotate-0 group-hover:-translate-y-2">
+                    <div class="bg-slate-100/50 border-b border-slate-200 px-4 py-3 flex gap-2 items-center">
+                        <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+                        <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+                        <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+                        <span class="ml-2 text-xs font-mono text-slate-400">engineer.py</span>
+                    </div>
+                    <div class="p-6 flex-1 font-mono text-sm text-slate-600 flex flex-col justify-center leading-loose">
+                        <p><span class="text-brand-600 font-semibold">import</span> ai_models</p>
+                        <p><span class="text-brand-600 font-semibold">from</span> backend <span class="text-brand-600 font-semibold">import</span> scalable_api</p>
+                        <p class="mt-4"><span class="text-indigo-600">model</span> = ai_models.LLM()</p>
+                        <p><span class="text-indigo-600">api</span>.deploy(<span class="text-indigo-600">model</span>)</p>
+                        <p class="mt-2 text-brand-500 font-bold animate-pulse">_</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="flex flex-col gap-8 scroll-mt-24">
+            <div class="flex flex-col gap-2">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Work Experience</h2>
+                <p class="text-slate-500">My professional journey in AI and Software Engineering.</p>
+            </div>
+            
+            <div class="flex flex-col gap-6">
+                <div class="hover-card bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-6 md:gap-8">
+                    <div class="md:w-1/4 flex flex-col gap-5 border-b md:border-b-0 md:border-r border-slate-100 pb-6 md:pb-0 md:pr-6">
+                        <div class="flex items-center gap-3">
+                            <img src="assets/usc.jpeg" alt="USC Logo" class="w-12 h-12 rounded-lg object-cover border border-slate-100 shadow-sm" />
+                            <div class="flex flex-col">
+                                <p class="font-bold text-slate-900 leading-tight">USC</p>
+                                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider mt-0.5">Private Research Uni</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <p class="text-sm font-bold text-slate-700">Jan 2026 - May 2026</p>
+                            <p class="text-sm text-slate-500">Los Angeles, CA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-3/4 flex flex-col">
+                        <h3 class="text-xl font-bold text-brand-600 mb-4">Course Grader - ML</h3>
+                        <ul class="space-y-4 text-slate-600 list-disc list-outside ml-4 marker:text-slate-300">
+                            <li class="leading-relaxed">
+                                Evaluated coursework for a graduate-level Machine Learning course, critiquing theoretical models and implementations for a cohort of 212 students.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-[11px] font-semibold border border-slate-200">Python</span>
+                                    <span class="px-2 py-0.5 bg-slate-100 text-slate-600 rounded text-[11px] font-semibold border border-slate-200">PyTorch</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hover-card bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-6 md:gap-8">
+                    <div class="md:w-1/4 flex flex-col gap-5 border-b md:border-b-0 md:border-r border-slate-100 pb-6 md:pb-0 md:pr-6">
+                        <div class="flex items-center gap-3">
+                            <img src="assets/twg.jpeg" alt="TWG Logo" class="w-12 h-12 rounded-lg object-cover border border-slate-100 shadow-sm" />
+                            <div class="flex flex-col">
+                                <p class="font-bold text-slate-900 leading-tight">TWG Global AI</p>
+                                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider mt-0.5">Holding Company</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <p class="text-sm font-bold text-slate-700">Jun 2025 - Aug 2025</p>
+                            <p class="text-sm text-slate-500">Santa Monica, CA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-3/4 flex flex-col">
+                        <h3 class="text-xl font-bold text-brand-600 mb-4">AI ML Scientist Intern</h3>
+                        <ul class="space-y-4 text-slate-600 list-disc list-outside ml-4 marker:text-slate-300">
+                            <li class="leading-relaxed">
+                                Developed a React-based monitoring dashboard to visualize insurance cohort metrics and product trends, providing Operations Leadership with data-driven baselines for strategic planning.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">React</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">TypeScript</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Built a bond return forecasting model in Azure ML Studio using LightGBM trained on time-varying latent representations, validated via 18-year rolling-window backtesting to ensure financial robustness.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Azure ML Studio</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">LightGBM</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="hover-card bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-6 md:gap-8">
+                    <div class="md:w-1/4 flex flex-col gap-5 border-b md:border-b-0 md:border-r border-slate-100 pb-6 md:pb-0 md:pr-6">
+                        <div class="flex items-center gap-3">
+                            <img src="assets/acadally.jpeg" alt="AcadAlly Logo" class="w-12 h-12 rounded-lg object-cover border border-slate-100 shadow-sm" />
+                            <div class="flex flex-col">
+                                <p class="font-bold text-slate-900 leading-tight">AcadAlly</p>
+                                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider mt-0.5">AI EdTech Platform</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <p class="text-sm font-bold text-slate-700">Feb 2024 - Jun 2024</p>
+                            <p class="text-sm text-slate-500">Delhi, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-3/4 flex flex-col">
+                        <h3 class="text-xl font-bold text-brand-600 mb-4">Software Engineer - Machine Learning</h3>
+                        <ul class="space-y-4 text-slate-600 list-disc list-outside ml-4 marker:text-slate-300">
+                            <li class="leading-relaxed">
+                                Automated exam generation via a Human-in-the-Loop GenAI pipeline using few-shot prompting, reducing manual content creation time by 40% while maintaining high academic quality.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Azure OpenAI</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Few-shot Prompting</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">LangChain</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Engineered scalable backend services using FastAPI and MongoDB to manage syllabi and real-time evaluations, utilizing Pytest to ensure system reliability for 15,000 active students.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">FastAPI</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">MongoDB</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Git</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">GitHub</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Azure VM</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Pytest</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Modeled a K-12 knowledge graph in Azure Neo4j mapping hierarchical topic-to-question dependencies, powering an adaptive diagnostic engine for 18 courses.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Neo4j</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Cypher</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="hover-card bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm flex flex-col md:flex-row gap-6 md:gap-8">
+                    <div class="md:w-1/4 flex flex-col gap-5 border-b md:border-b-0 md:border-r border-slate-100 pb-6 md:pb-0 md:pr-6">
+                        <div class="flex items-center gap-3">
+                            <img src="assets/peoplestrong.jpeg" alt="PeopleStrong Logo" class="w-12 h-12 rounded-lg object-cover border border-slate-100 shadow-sm" />
+                            <div class="flex flex-col">
+                                <p class="font-bold text-slate-900 leading-tight">PeopleStrong</p>
+                                <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wider mt-0.5">Enterprise HR Tech</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <p class="text-sm font-bold text-slate-700">Jan 2022 - Feb 2024</p>
+                            <p class="text-sm text-slate-500">Gurgaon, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-3/4 flex flex-col">
+                        <h3 class="text-xl font-bold text-brand-600 mb-4">Software Development Engineer</h3>
+                        <ul class="space-y-4 text-slate-600 list-disc list-outside ml-4 marker:text-slate-300">
+                            <li class="leading-relaxed">
+                                Built a Text-to-SQL analytics system for executives by curating a 14,000-sample training dataset and integrating a fine-tuned LLM to automate SQL procedure generation.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Llama 13B</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">QLoRA</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">PyTorch</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Gradio</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">TGI</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Engineered a distributed data ingestion pipeline using AWS Lambda, ECR, and DynamoDB to scrape 129,000 records, automating dataset curation for ML classifiers.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">AWS (Lambda, DynamoDB, ECR)</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Python</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Docker</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Constructed an incremental ETL pipeline to sync 1.3M applicant profiles from MS SQL Server to Elasticsearch using CDC, reducing search latency from seconds to milliseconds.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">MS SQL Server</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Elasticsearch</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">ETL Pipeline</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Python</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Designed a knowledge graph comprising 26K+ job roles and 100K+ skill edges in Neo4j with Elasticsearch semantic resolution, powering production job recommendation tools.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Neo4j</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Elasticsearch</span>
+                                </div>
+                            </li>
+                            <li class="leading-relaxed">
+                                Developed an employee attrition prediction model using XGBoost, achieving a 0.82 weighted F1-score and deploying the system to production for HR risk assessment.
+                                <div class="inline-flex flex-wrap gap-1.5 ml-1 align-middle mt-1">
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">XGBoost</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Python</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">Scikit-Learn</span>
+                                    <span class="px-2 py-0.5 bg-brand-50 text-brand-700 rounded text-[11px] font-semibold border border-brand-100">FastAPI</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education (WITH IMAGES) -->
+        <section id="education" class="flex flex-col gap-8 scroll-mt-24">
+            <div class="flex flex-col gap-2">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Education</h2>
+                <p class="text-slate-500">Academic background and institutional achievements.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- USC Card -->
+                <div class="hover-card bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col">
+                    <!-- ADD USC IMAGE HERE -->
+                    <div class="h-72 w-full bg-slate-200 relative overflow-hidden">
+                        <img src="assets/tommy_trojan.jpg" alt="USC Campus" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col flex-1">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">University of Southern California</h3>
+                        <p class="text-brand-600 font-medium mb-4">MS in Computer Science</p>
+                        <div class="mt-auto">
+                            <p class="text-sm text-slate-500 font-medium mb-2">Aug 2024 - May 2026 • GPA: 4.0/4.0</p>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                <span class="font-semibold">Key Coursework:</span> Machine Learning, Artificial Intelligence, NLP, Info Retrieval, Distributed Databases, Operating Systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manipal Card -->
+                <div class="hover-card bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col">
+                    <!-- ADD MANIPAL IMAGE HERE -->
+                    <div class="h-72 w-full bg-slate-200 relative overflow-hidden">
+                        <img src="assets/muj.jpg" alt="Manipal Campus" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col flex-1">
+                        <h3 class="text-2xl font-bold text-slate-900 mb-1">Manipal University Jaipur</h3>
+                        <p class="text-brand-600 font-medium mb-4">B.Tech in Computer Science & Engineering</p>
+                        <div class="mt-auto">
+                            <p class="text-sm text-slate-500 font-medium mb-2">Jul 2018 - Jul 2022 • GPA: 9.49/10.0</p>
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                <span class="font-semibold">Key Coursework:</span> Advanced Data Structures, Relational Databases, Operating Systems, Big Data, Computer Networks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects & Skills Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 scroll-mt-24" id="projects">
+            
+            <!-- Projects Column -->
+            <div class="lg:col-span-2 flex flex-col gap-6">
+                <div class="flex flex-col gap-2 mb-2">
+                    <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Featured Projects</h2>
+                </div>
+                
+                <div class="hover-card bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold text-slate-900">Multi-Tenant RAG</h3>
+                        <span class="material-symbols-outlined text-brand-600">rocket_launch</span>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed mb-6">A robust retrieval-augmented generation backend utilizing FastAPI, LlamaIndex, and AWS S3 with pgvector for scalable vector search across isolated tenant namespaces.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-brand-50 text-brand-700 rounded-lg text-sm font-medium border border-brand-100">FastAPI</span>
+                        <span class="px-3 py-1 bg-brand-50 text-brand-700 rounded-lg text-sm font-medium border border-brand-100">LlamaIndex</span>
+                        <span class="px-3 py-1 bg-brand-50 text-brand-700 rounded-lg text-sm font-medium border border-brand-100">AWS S3</span>
+                    </div>
+                </div>
+
+                <div class="hover-card bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold text-slate-900">Weenix OS Kernel</h3>
+                        <span class="material-symbols-outlined text-brand-600">memory</span>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed mb-6">Implementation of a UNIX-like operating system kernel. Developed core subsystems including virtual memory management, multi-process scheduling, and a virtual file system (VFS).</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-lg text-sm font-medium border border-slate-200">C/C++</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-lg text-sm font-medium border border-slate-200">System Sync</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-lg text-sm font-medium border border-slate-200">Threads</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Column -->
+            <div class="flex flex-col gap-6" id="skills">
+                <div class="flex flex-col gap-2 mb-2">
+                    <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Skills</h2>
+                </div>
+                
+                <div class="bg-white p-6 md:p-8 rounded-2xl border border-slate-100 shadow-sm h-full flex flex-col gap-6">
+                    <div>
+                        <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Languages</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">Python</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">C/C++</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">SQL</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">TypeScript</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">AI / Machine Learning</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-sm border border-indigo-100">Deep Learning</span>
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-sm border border-indigo-100">LLM Fine-Tuning</span>
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-sm border border-indigo-100">PyTorch</span>
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-sm border border-indigo-100">RAG</span>
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-lg text-sm border border-indigo-100">TensorFlow</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Web & Infra</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">FastAPI</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">Docker</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">Kubernetes</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">AWS</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Databases</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">PostgreSQL</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">pgvector</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">MongoDB</span>
+                            <span class="px-3 py-1 bg-slate-50 text-slate-700 rounded-lg text-sm border border-slate-200">Neo4j</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer class="w-full bg-white border-t border-slate-200 py-8 mt-12">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
+            <p>© 2026 Chinmay Salvi. All rights reserved.</p>
+            <div class="flex gap-4">
+                <a href="#" class="hover:text-brand-600 transition-colors">GitHub</a>
+                <a href="#" class="hover:text-brand-600 transition-colors">LinkedIn</a>
+                <a href="mailto:email@example.com" class="hover:text-brand-600 transition-colors">Email</a>
+            </div>
+        </div>
+    </footer> -->
+
+</body>
+</html>
